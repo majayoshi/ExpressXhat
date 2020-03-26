@@ -1,0 +1,22 @@
+{
+  "name": "xhat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zeit:login":"now login",
+    "micro":"now init nodejs chat",
+    "now:help":"now help",
+    "now":"now",
+    "log":"now logs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
