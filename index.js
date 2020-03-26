@@ -17,10 +17,16 @@ app.get("/", (req, res) => {
       { name: "Chris", location: "Vegas" }
     ]);
   });
+
+  app.get("/clients", (req, res) => {
+    res.json([
+      { name: "client 1", location: "USA" },
+      { name: "Chris", location: "Vegas" }
+    ]);
+  });
   
   app.post("/user", (req, res) => {
     const { name, location } = req.body;
-  
     res.send({ status: "User created", name, location });
   });
   
