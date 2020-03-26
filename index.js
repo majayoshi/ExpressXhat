@@ -17,6 +17,11 @@ app.get("/", (req, res) => {
       { name: "Chris", location: "Vegas" }
     ]);
   });
+  app.get("/api", (req, res) => {
+    res.json([
+      { name: "API" }
+    ]);
+  });
 
   app.get("/clients", (req, res) => {
     res.json([
