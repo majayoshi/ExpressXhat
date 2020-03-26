@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   });
   
   // Mock APIs
-  app.get("/users", (req, res) => {
+  app.get("api/users", (req, res) => {
     res.json([
       { name: "William", location: "Abu Dhabi" },
       { name: "Chris", location: "Vegas" }
@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
     ]);
   });
 
-  app.get("/clients", (req, res) => {
+  app.get("api/clients", (req, res) => {
     res.json([
       { name: "client 1", location: "USA" },
       { name: "Chris", location: "Vegas" }
