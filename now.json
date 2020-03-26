@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "/client/package.json", "use": "@now/static-build" },
+    { "src": "/clients/package.json", "use": "@now/static-build" },
     { "src": "/*.js", "use": "@now/node-server" }
   ],
   "routes": [
