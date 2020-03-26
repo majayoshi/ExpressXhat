@@ -1,5 +1,5 @@
 {
-  "name": "chatserver",
+  "name": "xhat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,6 @@
     "micro":"now init nodejs chat",
     "now:help":"now help",
     "now":"now",
-    "now-build": "node index.js",
     "log":"now logs"
   },
   "keywords": [],
