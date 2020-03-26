@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
     ]);
   });
   
-  app.post("/user", (req, res) => {
+  app.post("/api/user", (req, res) => {
     const { name, location } = req.body;
     res.send({ status: "User created", name, location });
   });
